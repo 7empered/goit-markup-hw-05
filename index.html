@@ -411,8 +411,9 @@
                 </ul>
             </div>
             <div class="footer-input-container">
+                <p class="footer-input-text">Subscribe</p>
                 <form class="footer-form">
-                    <label class="footer-form-label" for="">Subscribe</label>
+                    
                     <input class="footer-input" 
                            type="email"
                            id="footer-input-email"
@@ -473,23 +474,23 @@
                     </div>
                 </div>
                 <div class="contact-form-field-wrapper">
-                    <label class="contact-form-field-label" for="comment-area">
+                    <label class="contact-form-field-label" for="user-comment">
                         Comment
                     </label>
                     <textarea class="contact-form-field-commnet" 
                         name="user-comment"
-                        id="comment-area"
+                        id="user-comment"
                         placeholder="Text input">
                     </textarea>
                 </div>
                 <div class="contact-form-checkbox-wrapper">
                     <input class="contact-form-checkbox visually-hidden" 
                        type="checkbox"
-                       id="privacy-policy"
-                       name="privacy-policy"
-                       value="checked"
+                       id="user-privacy"
+                       name="user-privacy"
+                       value="true"
                        required>
-                    <label class="contact-form-checkbox-label" for="privacy-policy">
+                    <label class="contact-form-checkbox-label" for="user-privacy">
                         <span class="contact-form-custom-checkbox">
                             <svg class="custom-checkbox-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-checkmark"></use>
@@ -498,8 +499,8 @@
                         I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
                     </label>
                 </div>
+                <button class="modal-send-btn" type="submit">Send</button>
             </form>
-            <button class="modal-send-btn" type="submit">Send</button>
         </div>
     </div>
 </body>
