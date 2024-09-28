@@ -413,19 +413,21 @@
             <div class="footer-input-container">
                 <p class="footer-input-text">Subscribe</p>
                 <form class="footer-form">
-                    
-                    <input class="footer-input" 
-                           type="email"
-                           id="footer-input-email"
-                           name="footer-input-email"
-                           placeholder="E-mail">
+                    <label for="footer-input-email" class="footer-input-label">
+                        <input class="footer-input" 
+                            type="email" 
+                            id="footer-input-email" 
+                            name="footer-input-email" 
+                            placeholder="E-mail">
+                    </label>
+                        <button class="telega-sub-btn" type="submit">
+                            Subscribe
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-telegram">
+                                </use>
+                            </svg>
+                        </button>
                 </form>
-                <a class="telega-sub-link" href="" >
-                    Subscribe
-                    <svg class="footer-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-telegram"></use>
-                    </svg>
-                </a>
             </div>
         </div>
     </footer>
